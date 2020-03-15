@@ -1,9 +1,14 @@
-import React, { useState } from 'react'
+import React from "react";
+import { Header } from "./components/Header";
+import { HeaderSlider } from "./components/HeaderSlider";
 
 const App = () => {
-  const [counter, setCounter] = useState(0)
+  return (
+    <>
+      <Header />
+      <HeaderSlider />
+    </>
+  );
+};
 
-  return <div className="container">hello webpack</div>
-}
-
-export default App
+export default App;
