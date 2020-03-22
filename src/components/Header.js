@@ -15,7 +15,7 @@ export const Header = () => {
         <HeaderBottom>
           <h1>Roadster</h1>
           <p>​The quickest car <br/>in the world, <br/>with record-setting <br/>acceleration, range <br/>and performance</p>
-          <Button>Order test drive</Button>
+          <Button>Schedule a test drive</Button>
         </HeaderBottom>
       </div>
     </HeaderStyle>
