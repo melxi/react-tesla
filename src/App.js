@@ -4,6 +4,7 @@ import { HeaderSlider } from "./components/HeaderSlider";
 import { Stats } from "./components/Stats";
 import { Showcase } from "./components/Showcase";
 import { Advantages } from "./components/Advantages";
+import { Design } from "./components/Design";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Stats />
       <Showcase />
       <Advantages />
+      <Design />
     </>
   );
 };
